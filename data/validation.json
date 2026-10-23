@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "measurementRows": 8326,
+  "samplePlots": 32,
+  "distinctNonblankPlotTags": 8109,
+  "sourceTreeCount": 6738,
+  "sampleStockTco2e": 1309.5463770261092,
+  "projectBaselineTco2e": 362962.8144,
+  "maxAbsoluteComponentDifferences": {
+    "agbKg": 1.8189894035458565e-12,
+    "bgbKg": 9.094947017729282e-13,
+    "stockTco2e": 4.440892098500626e-15
+  },
+  "sourceSha256": "6f95f24e7632cc5901a8ea36bc9ecad9807d18ba42a42364df7876439e82b89a",
+  "checks": [
+    "source checksum unchanged",
+    "record IDs unique",
+    "all pre-total rows retained including blank sequence",
+    "numeric count markers reconcile to source totals",
+    "tree stocks reconcile to all 32 plot totals",
+    "area normalization reconciles to all 32 summary rows",
+    "independent per-row formula recomputation",
+    "project plot areas reconcile to CTT0",
+    "six expanded strata reconcile to CTT0 total"
+  ]
+}
